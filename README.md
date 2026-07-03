@@ -11,7 +11,7 @@ VOIDSUB, masaüstünüzdeki veya oynadığınız oyunlardaki İngilizce metinler
 **Şu an için öncelikli olarak İngilizce'den ➔ Türkçe'ye odaklanmıştır.**
 
 ## 👨‍💻 Geliştirici Notu (Projenin Hikayesi)
-Bu proje devasa şirketlerin değil, **tek bir bağımsız geliştiricinin 4 aylık kesintisiz ve yoğun emeğinin** bir ürünüdür. Sıfırdan tasarlanan mimarisi, yapay zeka entegrasyonları, performans yönetimi ve UI/UX tasarımı tek elden yoğrularak, piyasadaki en akıcı ve modern "Live Translation" (Canlı Çeviri) aracı olma hedefiyle gün yüzüne çıkarılmıştır. 
+Bu proje devasa şirketlerin değil, **tek bir bağımsız geliştiricinin 4 aylık kesintisiz ve yoğun emeğinin** bir ürünüdür. Sıfırdan tasarlanan mimarisi, yapay zeka entegrasyonları, performans yönetimi ve UI/UX tasarımı tek elden yoğrularak, piyasadaki en akıcı ve modern "Live Translation" (Canlı Çeviri) aracı olma hedefiyle gün yüzüne çıkarılmıştır, günümüzde özellikle Türkiye pazarının oyunlar ile olan ilişkisini düşünürsek, Allahın hintlisine kadar polonyalısına kadar dil desteği veren bazı nankör firmaların bu inadına karşılık olarak, büyük yapımların dil desteği ve türkçe yamasının belli belirsiz oluşunun getirdiği ve sırf bu yüzden oyunların hikayesi ile bağ kurulamama dil bariyerine  takılma gibi çileden çıkarıcı global görmezden gelinmenin yarattığı sinirin dışavurumudur, amacım değerli türkçe yama ile sektöre katkı sağlayanları ve oyun sektörünü türkiyede sevilen bir pazar haline getiren  kişilerin emeklerini baltalamak değil onların yama hizmeti vermediği oyunları hedeflemektedir.
 
 ## ✨ Detaylı Özellikler
 VOIDSUB, sadece bir çeviri kutusundan ibaret değildir. İçerisinde pek çok "gizli" ve gelişmiş katman özelliği barındırır:
