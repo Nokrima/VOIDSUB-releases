@@ -2,10 +2,7 @@
   <h1>🌌 VOIDSUB</h1>
   <p><strong>Gerçek Zamanlı, Oyun ve Ekran İçi Çeviri Asistanı</strong></p>
   
-  <a href="https://www.buymeacoffee.com/Nokrima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 217px !important;" ></a>
-</div>
-
----
+ ---
 
 ## 📌 VOIDSUB Nedir?
 VOIDSUB, masaüstünüzdeki veya oynadığınız oyunlardaki İngilizce metinleri anında algılayıp, ekranınıza şık bir katman (Overlay) üzerinden Türkçe'ye çeviren yüksek performanslı bir çeviri asistanıdır. Yabancı dildeki oyunları, görsel romanları, uygulamaları veya altyazısız videoları dil engeline takılmadan deneyimlemenizi sağlar.
@@ -74,11 +71,5 @@ Kurulum esnasında veya programı ilk çalıştırdığınızda **Windows Defend
 **Çözüm:** Mavi ekranlı SmartScreen uyarısı alırsanız **Ek Bilgi (More Info)** ➔ **Yine de Çalıştır (Run Anyway)** diyerek ilerleyebilirsiniz. Antivirüsünüz setup dosyasını engellerse, VOIDSUB'ı güvenilir (Dışlamalar) listesine eklemeniz yeterlidir. Uygulamamız %100 şeffaftır ve arka planda asla zararlı bir işlem yürütmez.
 
 ---
-
-## ☕ Geliştiriciye Destek Ol (Sponsor)
-Bu proje tamamen ücretsiz ve açık kaynaklı (veya bağımsız) olarak, tek bir kişi tarafından 4 aylık yoğun bir emekle geliştirilmiştir.
-Eğer VOIDSUB oyun keyfinizi artırdıysa ve bu projenin hayatta kalmasına, yeni özellikler (yeni diller, daha hızlı motorlar) eklenmesine destek olmak isterseniz bana bir kahve ısmarlayabilirsiniz! 
-
-<a href="https://www.buymeacoffee.com/Nokrima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 217px !important;" ></a>
 
 *Küçük büyük demeden yapacağınız her destek, uykusuz geçen gecelerin en büyük motivasyon kaynağıdır!* ❤️
