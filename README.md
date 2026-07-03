@@ -18,7 +18,7 @@ VOIDSUB, sadece bir çeviri kutusundan ibaret değildir. İçerisinde pek çok "
 
 * **🎮 Gelişmiş Oyun İçi OSD (On-Screen Display):** 
   * Çeviriler, oyun ekranının hemen üzerinde modern bir pencereyle (OSD) gösterilir.
-  * *Akıllı Konumlandırma:* Overlay, seçtiğiniz tarama alanına göre (snap-to-region) otomatik hizalanır.
+  * *Akıllı Konumlandırma:* Çeviri Katmanı, seçtiğiniz tarama alanına göre (snap-to-region) otomatik hizalanır.
   * *Animasyonlar:* Metinlerin şelale (waterfall) veya atlama (jump) efektleriyle ekrana gelmesini sağlayabilirsiniz.
 * **🧠 Optik Motor (OCR) Desteği:** 
   * **Windows OCR:** Windows'un dahili, çok hafif ve inanılmaz hızlı okuma motoru.
