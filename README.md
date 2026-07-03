@@ -1,6 +1,8 @@
 <div align="center">
   <h1>🌌 VOIDSUB</h1>
   <p><strong>Gerçek Zamanlı, Oyun ve Ekran İçi Çeviri Asistanı</strong></p>
+  
+  <a href="https://www.buymeacoffee.com/Nokrima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 217px !important;" ></a>
 </div>
 
 ---
@@ -11,14 +13,14 @@ VOIDSUB, masaüstünüzdeki veya oynadığınız oyunlardaki İngilizce metinler
 **Şu an için öncelikli olarak İngilizce'den ➔ Türkçe'ye odaklanmıştır.**
 
 ## 👨‍💻 Geliştirici Notu (Projenin Hikayesi)
-Bu proje devasa şirketlerin değil, **tek bir bağımsız geliştiricinin 4 aylık kesintisiz ve yoğun emeğinin** bir ürünüdür. Sıfırdan tasarlanan mimarisi, yapay zeka entegrasyonları, performans yönetimi ve UI/UX tasarımı tek elden yoğrularak, piyasadaki en akıcı ve modern "Live Translation" (Canlı Çeviri) aracı olma hedefiyle gün yüzüne çıkarılmıştır, günümüzde özellikle Türkiye pazarının oyunlar ile olan ilişkisini düşünürsek, Allahın hintlisine kadar polonyalısına kadar dil desteği veren bazı nankör firmaların bu inadına karşılık olarak, büyük yapımların dil desteği ve türkçe yamasının belli belirsiz oluşunun getirdiği ve sırf bu yüzden oyunların hikayesi ile bağ kurulamama dil bariyerine  takılma gibi çileden çıkarıcı global görmezden gelinmenin yarattığı sinirin dışavurumudur, amacım değerli türkçe yama ile sektöre katkı sağlayanları ve oyun sektörünü türkiyede sevilen bir pazar haline getiren  kişilerin emeklerini baltalamak değil onların yama hizmeti vermediği oyunları hedeflemektedir.
+Bu proje devasa şirketlerin değil, **tek bir bağımsız geliştiricinin 4 aylık kesintisiz ve yoğun emeğinin** bir ürünüdür. Sıfırdan tasarlanan mimarisi, yapay zeka entegrasyonları, performans yönetimi ve UI/UX tasarımı tek elden yoğrularak, piyasadaki en akıcı ve modern "Live Translation" (Canlı Çeviri) aracı olma hedefiyle gün yüzüne çıkarılmıştır. 
 
 ## ✨ Detaylı Özellikler
 VOIDSUB, sadece bir çeviri kutusundan ibaret değildir. İçerisinde pek çok "gizli" ve gelişmiş katman özelliği barındırır:
 
 * **🎮 Gelişmiş Oyun İçi OSD (On-Screen Display):** 
   * Çeviriler, oyun ekranının hemen üzerinde modern bir pencereyle (OSD) gösterilir.
-  * *Akıllı Konumlandırma:* Çeviri Katmanı, seçtiğiniz tarama alanına göre (snap-to-region) otomatik hizalanır.
+  * *Akıllı Konumlandırma:* Overlay, seçtiğiniz tarama alanına göre (snap-to-region) otomatik hizalanır.
   * *Animasyonlar:* Metinlerin şelale (waterfall) veya atlama (jump) efektleriyle ekrana gelmesini sağlayabilirsiniz.
 * **🧠 Optik Motor (OCR) Desteği:** 
   * **Windows OCR:** Windows'un dahili, çok hafif ve inanılmaz hızlı okuma motoru.
@@ -70,3 +72,13 @@ Kurulum esnasında veya programı ilk çalıştırdığınızda **Windows Defend
 2. **Ekran Yakalama ve Low-Level Tuş İzinleri:** Uygulama, arka planda ekranınızı anlık okumak (Capture) ve global klavye tuşlarınızı (F5, F6) dinlemek zorundadır. Antivirüs yazılımları bu düşük seviyeli sistem izinlerini siber tehditlerin davranışlarına benzettiği için **"False-Positive" (Yanlış Alarm)** verir.
 
 **Çözüm:** Mavi ekranlı SmartScreen uyarısı alırsanız **Ek Bilgi (More Info)** ➔ **Yine de Çalıştır (Run Anyway)** diyerek ilerleyebilirsiniz. Antivirüsünüz setup dosyasını engellerse, VOIDSUB'ı güvenilir (Dışlamalar) listesine eklemeniz yeterlidir. Uygulamamız %100 şeffaftır ve arka planda asla zararlı bir işlem yürütmez.
+
+---
+
+## ☕ Geliştiriciye Destek Ol (Sponsor)
+Bu proje tamamen ücretsiz ve açık kaynaklı (veya bağımsız) olarak, tek bir kişi tarafından 4 aylık yoğun bir emekle geliştirilmiştir.
+Eğer VOIDSUB oyun keyfinizi artırdıysa ve bu projenin hayatta kalmasına, yeni özellikler (yeni diller, daha hızlı motorlar) eklenmesine destek olmak isterseniz bana bir kahve ısmarlayabilirsiniz! 
+
+<a href="https://www.buymeacoffee.com/Nokrima" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 217px !important;" ></a>
+
+*Küçük büyük demeden yapacağınız her destek, uykusuz geçen gecelerin en büyük motivasyon kaynağıdır!* ❤️
