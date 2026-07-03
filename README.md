@@ -6,20 +6,27 @@
 ---
 
 ## 📌 VOIDSUB Nedir?
-VOIDSUB, masaüstünüzdeki veya oynadığınız oyunlardaki metinleri anında algılayıp, ekranınıza şık bir katman (Overlay) üzerinden çeviren yüksek performanslı bir çeviri asistanıdır. Yabancı dildeki oyunları, görsel romanları, uygulamaları veya altyazısız videoları dil engeline takılmadan, kendi dilinizde deneyimlemenizi sağlar.
+VOIDSUB, masaüstünüzdeki veya oynadığınız oyunlardaki İngilizce metinleri anında algılayıp, ekranınıza şık bir katman (Overlay) üzerinden Türkçe'ye çeviren yüksek performanslı bir çeviri asistanıdır. Yabancı dildeki oyunları, görsel romanları, uygulamaları veya altyazısız videoları dil engeline takılmadan deneyimlemenizi sağlar.
+
+**Şu an için öncelikli olarak İngilizce'den ➔ Türkçe'ye odaklanmıştır.**
+
+## 👨‍💻 Geliştirici Notu (Projenin Hikayesi)
+Bu proje devasa şirketlerin değil, **tek bir bağımsız geliştiricinin 4 aylık kesintisiz ve yoğun emeğinin** bir ürünüdür. Sıfırdan tasarlanan mimarisi, yapay zeka entegrasyonları, performans yönetimi ve UI/UX tasarımı tek elden yoğrularak, piyasadaki en akıcı ve modern "Live Translation" (Canlı Çeviri) aracı olma hedefiyle gün yüzüne çıkarılmıştır. 
 
 ## ✨ Detaylı Özellikler
-Yalnızca ekranda bir metin çevirmekten ibaret değil, size özel olarak tasarlanmış geniş bir yelpaze sunar:
+VOIDSUB, sadece bir çeviri kutusundan ibaret değildir. İçerisinde pek çok "gizli" ve gelişmiş katman özelliği barındırır:
 
-* **🎮 Oyun İçi OSD (On-Screen Display):** Çevirileri, oyun ekranının hemen üzerinde, göz yormayan, modern ve saydam bir pencereyle (OSD) gösterir.
-* **🧠 Çoklu Optik Motor (OCR) Desteği:** 
+* **🎮 Gelişmiş Oyun İçi OSD (On-Screen Display):** 
+  * Çeviriler, oyun ekranının hemen üzerinde modern bir pencereyle (OSD) gösterilir.
+  * *Akıllı Konumlandırma:* Overlay, seçtiğiniz tarama alanına göre (snap-to-region) otomatik hizalanır.
+  * *Animasyonlar:* Metinlerin şelale (waterfall) veya atlama (jump) efektleriyle ekrana gelmesini sağlayabilirsiniz.
+* **🧠 Optik Motor (OCR) Desteği:** 
   * **Windows OCR:** Windows'un dahili, çok hafif ve inanılmaz hızlı okuma motoru.
-  * **EasyOCR / PyTorch:** Derin öğrenme (Yapay Zeka) destekli, zor fontları bile okuyabilen güçlü motor.
-* **🎨 Tam Özelleştirilebilir Arayüz:** Katman penceresinin rengini, yazı tipini, boyutunu, şeffaflığını ve metin animasyonlarını (kayma, zıplama vb.) dilediğiniz gibi ayarlayabilirsiniz.
-* **⚡ Yüksek Performans & GPU Desteği:** Donanım hızlandırmalı okuma motorları sayesinde metinleri saliseler içinde yakalar. CUDA uyumlu ekran kartlarında AI motorlarıyla üst düzey performans sunar.
-* **🎯 Esnek Tarama & Çeviri Seçenekleri:** İster tüm ekranı otomatik taratın, ister sadece diyalog kutusunu (F6) seçin, isterseniz de tek seferlik anlık çeviri (F7) yapın.
-* **🔄 Akıllı Arka Plan Güncelleyicisi:** Yeni bir sürüm çıktığında devasa setup dosyalarına gerek kalmadan kendini saniyeler içinde ufak parçalarla (yama) otomatik günceller.
-* **🚀 Gelişmiş Log ve Dashboard:** Hangi motorun ne kadar hızla (MS) çeviri yaptığını arayüzdeki modern panelden anlık olarak takip edebilirsiniz.
+  * **EasyOCR / PyTorch:** Derin öğrenme (Yapay Zeka) destekli, zor fontları bile okuyabilen güçlü AI motoru.
+* **🎨 Tam Özelleştirilebilir Arayüz:** Katman penceresinin rengini, yazı tipini, boyutunu ve şeffaflığını dilediğiniz gibi ayarlayabilirsiniz.
+* **⚡ Yüksek Performans & GPU Desteği:** CUDA uyumlu ekran kartlarında AI motorlarıyla (EasyOCR) üst düzey performans sunar. Bilgisayarınızı yormaz.
+* **🔄 Akıllı Arka Plan Güncelleyicisi:** Yeni bir sürüm çıktığında devasa setup dosyalarına gerek kalmadan kendini ufak yamalarla otomatik günceller.
+* **🚀 Dashboard:** Hangi motorun kaç milisaniyede (ms) çeviri yaptığını arayüzdeki panelden canlı olarak takip edebilirsiniz.
 
 ## 🚀 Kısayol Tuşları & Kullanım
 VOIDSUB, oyun oynarken odağınızı kaybetmemeniz için Global Klavye Kısayolları ile yönetilir:
@@ -27,39 +34,39 @@ VOIDSUB, oyun oynarken odağınızı kaybetmemeniz için Global Klavye Kısayoll
 | Tuş | İşlev |
 | :---: | :--- |
 | **`F5`** | Çeviriyi Başlat / Durdur (Motoru aktif eder veya kapatır) |
-| **`F6`** | Ana Tarama Alanını Seç (Sürekli çeviri yapılacak bölgeyi belirler) |
-| **`F7`** | Anlık/Geçici Bölge Çevirisi (Sadece o anlık, tek seferlik çeviri yapmak için) |
+| **`F6`** | Ana Tarama Alanını Seç / Kalibrasyon Yap |
+| **`F7`** | Anlık/Geçici Bölge Çevirisi (Tek seferlik anında çeviri) |
 | **`F8`** | Katmanı (Çeviri Penceresini) Gizle / Göster |
 | **`F9`** | Menüyü (VOIDSUB Arayüzünü) Öne Getir |
+
+## 🎮 En İyi Oyun Deneyimi İçin Tavsiyeler & Kalibrasyon
+Programın oyunlarda kusursuz çeviri yapabilmesi için şu altın kurallara uymanız şiddetle tavsiye edilir:
+
+1. **Görüntü Modu:** Oyunlarınızı **"Çerçevesiz Tam Ekran" (Borderless Window)** veya **"Pencereli" (Windowed)** modda oynayın. (Özel Tam Ekran (Exclusive Fullscreen) modları bazı oyunlarda OSD katmanının görünmesini engelleyebilir).
+2. **Altyazı Arka Planı:** Eğer oynadığınız oyun destekliyorsa, oyun içi altyazı ayarlarından "Metin Arka Planını (Text Background) Siyah (Opak)" yapın. Bu, OCR motorunun yazıları arka plandaki karmaşık görsellerden çok daha kolay ve net ayıklamasını sağlar.
+3. **Doğru Kalibrasyon (F6):** F6 tuşuna basarak seçtiğiniz tarama alanını, *oyundaki altyazıların tam çıkacağı kutunun sınırlarına göre* (ne çok dar ne çok geniş) belirleyin. Kutu dışına taşan yazılar okunmaz, çok geniş kutularda ise çeviri hızı düşebilir.
 
 ## 🛠 İndirme ve Kurulum
 1. [Releases (Sürümler)](https://github.com/Nokrima/VOIDSUB/releases/latest) sayfamıza gidin.
 2. En güncel sürüme ait **`setup.exe`** dosyasını indirin.
-3. Kurulumu tamamladıktan sonra VOIDSUB uygulamasını çalıştırın.
-4. "Motor Durumu" panelinden dilediğiniz çeviri motorunu kurun.
-5. **F6** tuşu ile ekranınızdaki çevrilecek alanı seçin ve **F5** tuşu ile çeviriyi başlatın.
+3. Kurulumu tamamladıktan sonra uygulamayı çalıştırın.
+4. "Motor Durumu" panelinden dilediğiniz çeviri motorunu (örn: Windows OCR) aktif edin.
+5. **F6** tuşu ile kalibrasyon (tarama) alanınızı seçip **F5** tuşu ile çeviriyi başlatın.
 
 ## ⚙️ Sistem Gereksinimleri
-Kesintisiz ve akıcı bir çeviri deneyimi için tavsiye edilen gereksinimler:
-
 * **İşletim Sistemi:** Windows 10 veya Windows 11 (64-bit zorunludur)
-* **İşlemci (CPU):** Intel Core i3 / AMD Ryzen 3 ve üzeri (AI OCR için daha yüksek modeller tavsiye edilir)
+* **İşlemci (CPU):** Intel Core i3 / AMD Ryzen 3 ve üzeri
 * **Bellek (RAM):** Minimum 4 GB (Tavsiye edilen: 8 GB ve üzeri)
-* **Ekran Kartı (GPU):** 
-  * EasyOCR/PyTorch AI motoru kullanılacaksa **NVIDIA CUDA** destekli (Örn: GTX 1050 ve üzeri) ekran kartı şiddetle tavsiye edilir. (İşlemci ile de çalışır ancak hız farkı yaşanabilir).
-* **Diğer Bağlantılar:** Çeviri servislerine (Google vb.) sorunsuz erişim için aktif bir internet bağlantısı.
+* **Ekran Kartı (GPU):** EasyOCR/PyTorch AI motoru için **NVIDIA CUDA** destekli (Örn: GTX 1050 ve üzeri) ekran kartı şiddetle tavsiye edilir. 
+* **İnternet:** Çeviri servislerine (Google vb.) erişim için kesintisiz internet bağlantısı.
 
 ---
 
 ## 🛡️ Güvenlik Uyarıları (Windows Defender & SmartScreen)
 
-Kurulum esnasında veya programı ilk çalıştırdığınızda **Windows Defender, SmartScreen** veya kullandığınız üçüncü parti bir Antivirüs yazılımı size bir **güvenlik uyarısı** gösterebilir *(Örn: "Windows kişisel bilgisayarınızı korudu")*. 
+Kurulum esnasında veya programı ilk çalıştırdığınızda **Windows Defender** veya **SmartScreen** size bir güvenlik uyarısı gösterebilir. Bunun başlıca iki sebebi vardır:
 
-Bunun sebepleri şunlardır:
-1. **İmza ve Bilinirlik:** VOIDSUB, bağımsız bir geliştirici projesidir. Kurumsal şirketlere ait pahalı dijital sertifikalar barındırmadığı ve henüz Windows ekosisteminde "yaygın olarak indirilen yeni bir program" olduğu için Windows varsayılan olarak bu tür `.exe` dosyalarını şüpheli bulabilir.
-2. **Ekran Yakalama ve Klavye (Hotkey) İzinleri:** Uygulama yapısı gereği **ekranınızı anlık okumak** (oyun içi metinleri taramak) ve **global klavye kısayollarını dinlemek** (F5, F6 gibi tuşlara oyun içindeyken tepki vermek) zorundadır. Antivirüs yazılımları bu tür düşük seviyeli (Low-Level Hooking) sistem izinlerini haklı olarak siber tehditlerin davranışlarına benzettiği için **"False-Positive" (Yanlış Alarm)** verebilir.
+1. **İmza ve Bilinirlik:** VOIDSUB, kurumsal şirketlere ait pahalı dijital sertifikalar (EV Code Signing) barındırmayan tek kişilik bağımsız bir projedir. Windows, henüz ekosistemde "yaygınlaşmamış" yeni `.exe` dosyalarını otomatik olarak şüpheli bulabilir.
+2. **Ekran Yakalama ve Low-Level Tuş İzinleri:** Uygulama, arka planda ekranınızı anlık okumak (Capture) ve global klavye tuşlarınızı (F5, F6) dinlemek zorundadır. Antivirüs yazılımları bu düşük seviyeli sistem izinlerini siber tehditlerin davranışlarına benzettiği için **"False-Positive" (Yanlış Alarm)** verir.
 
-**Ne Yapmalıyım?**
-* Uygulamamız tamamen şeffaftır ve arka planda kötü amaçlı herhangi bir eylem yürütmez.
-* Eğer mavi ekranlı **SmartScreen engeli** ile karşılaşırsanız; **Ek Bilgi (More Info)** butonuna tıklayıp **Yine de Çalıştır (Run Anyway)** seçeneğiyle devam edebilirsiniz.
-* Antivirüs programınız `setup.exe`'yi siler veya çalışmasını engellerse, VOIDSUB klasörünü güvenilir listesine *(Exclusions / Dışlamalar)* eklemeniz gerekebilir.
+**Çözüm:** Mavi ekranlı SmartScreen uyarısı alırsanız **Ek Bilgi (More Info)** ➔ **Yine de Çalıştır (Run Anyway)** diyerek ilerleyebilirsiniz. Antivirüsünüz setup dosyasını engellerse, VOIDSUB'ı güvenilir (Dışlamalar) listesine eklemeniz yeterlidir. Uygulamamız %100 şeffaftır ve arka planda asla zararlı bir işlem yürütmez.
